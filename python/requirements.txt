@@ -1,0 +1,10 @@
+# TensorFlow currently supports Python 3.10-3.12 on mainstream desktop builds.
+# Use an isolated virtual environment, e.g.:
+#   py -3.12 -m venv .venv
+#   .venv\Scripts\pip install -r python\requirements.txt
+tensorflow>=2.16.1,<2.21
+numpy>=1.26,<2.3
+soundfile>=0.12.1
+librosa>=0.10.2,<0.12
+resampy>=0.4.2
+sounddevice>=0.5  # live test on the PC microphone
