@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.vite/
+src-tauri/target/
+src-tauri/gen/
+__pycache__/
+python/.venv/
+.venv/
+*.log
+.DS_Store
+Thumbs.db
